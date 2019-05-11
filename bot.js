@@ -29,5 +29,10 @@ client.on("message", async message => {
   
 });
 
+let prefix = botconfig.prefix;
+  if(`cmd === ${prefix}kick`)
+{
+  "prefix"; "!"
+}
 
 client.login(config.token);
